@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="utf-8" http-equiv="encoding">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <style type="text/css">
+        html, body, .container-fluid, .row, .col-xs-6 { height: 100%; }
+
+    .bar {
+      fill: steelblue;
+    }
+
+    .bar:hover {
+      fill: brown;
+    }
+
+    .axis {
+      font: 10px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="myd3.css">
+    <link rel="import" href="http://www.corsproxy.com/spreadsheets.google.com/feeds/list/1HizXxtZN_W-0gajgFZaBXg0LFVXlchCXzmyaK0YbiOg/o5hbxv9/public/full">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAnNgZeyn_6j4Gh6tXFMvzNWX4NlrErBc"></script>
+    <script src="newaccountsmap.js"></script>
+    <script src="d3.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6" id="panel">
+              <h2>New accounts</h2>
+            </div>
+            <div class="col-xs-6" id="map-canvas"></div>
+        </div>  
+    </div>
+  </body>
+</html>

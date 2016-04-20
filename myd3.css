@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  border: 0;
+}
+
+svg {
+  padding: 0;
+  border: 0;
+  font: 10px sans-serif;
+}
+
+.title {
+  font: 300 78px Helvetica Neue;
+  fill: #666;
+}
+
+.day {
+  text-anchor: middle;
+}
+
+.day {
+  fill: #fff;
+}
+
+rect {
+  fill-opacity: .6;
+  fill: #e377c2;
+}
+
+rect:first-child {
+  fill: #1f77b4;
+}
+
+text {
+  fill: #666;
+}
